@@ -37,3 +37,12 @@ if(knight === true){ //if statement to determine if the player is a knight
 var healthTotal = knight - damageTaken; // This will calculate how much health is left
 console.log("You have " + healthTotal + " health left."); // print out how much health is left
 
+
+// if statement to tell the user if they are alive or dead
+if(healthTotal > 5){ //if statement to determine if the player is alive or dead
+    console.log("You are alive and well!"); // if their health is above 1 they are alive and well
+}else if(healthTotal == 1){
+    console.log("You are alive but need health immediately."); //if the player only has one health this message will display
+}else{
+    console.log("Sorry but you are dead."); // if the player's health is below 1 they are dead
+}
