@@ -23,3 +23,7 @@ console.log("Lecture hall C seats " + totalChairs + " people."); // will display
 console.log(reservations + " seat(s) were reserved for the lecture with Mr. Lewis."); // will display the amount of reservations.
 console.log(walkIns + " ticket(s) were sold at the door."); // will display the amount of walk ins.
 console.log("There are only " + seatsLeft + " seat(s) left in lecture hall C."); // will display how many seats are left in the lecture hall.
+
+
+
+
