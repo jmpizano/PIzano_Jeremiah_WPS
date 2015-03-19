@@ -46,3 +46,35 @@ if(healthTotal > 5){ //if statement to determine if the player is alive or dead
 }else{
     console.log("Sorry but you are dead."); // if the player's health is below 1 they are dead
 }
+
+
+//Ternary statement to decide if the character is the chosen one that prophecy has talked about
+(charLevel > 15 && chosenOne === true) ? console.log("You are the chosen one that will bring glory to this land.") : console.log("You must find the chosen one!");
+
+/* For my first test my character was a knight and possessed Excalibur. He is level 22. He took 20 damage. My results were:
+ Your starting health is 150.
+ Script.js:37 You have 130 health left.
+ Script.js:41 You alive and well!
+ Script.js:49 You are the chosen one that will bring glory to this land.
+ */
+
+/*For my second test my character was not a knight and did not posses the sword Excalibur. He was level 5 and took 10 damage.
+ Your starting health was 50.
+ Script.js:38 You have 40 health left.
+ Script.js:43 You are alive and well!
+ Script.js:51 You must find the chosen one!
+ */
+
+/*For my third test my character was not a knight but did possess Excalibur. He was level 8 and took 49 damage.
+ Your starting health was 50.
+ Script.js:38 You have 1 health left.
+ Script.js:45 You are alive but need health immediately.
+ Script.js:51 You must find the chosen one!
+ */
+
+/*For my fourth test my character was a knight and possessed Excalibur. He was level 22 and took 200 damage.
+ our starting health was 150.
+ Script.js:38 You have -50 health left.
+ Script.js:47 Sorry but you are dead.
+ Script.js:51 You are the chosen one that will bring glory to this land.
+ */
