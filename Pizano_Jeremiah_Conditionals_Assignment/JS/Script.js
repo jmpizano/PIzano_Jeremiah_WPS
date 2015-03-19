@@ -33,3 +33,7 @@ if(knight === true){ //if statement to determine if the player is a knight
     console.log("Your starting health was " + charLevel + "."); // this will make the var knight the overall health of the character
 }
 
+
+var healthTotal = knight - damageTaken; // This will calculate how much health is left
+console.log("You have " + healthTotal + " health left."); // print out how much health is left
+
